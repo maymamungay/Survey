@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "Candara";
+	background-color: #000000;
+}
+div{
+	display: block;
+}
+.main{
+	background-image: url("background.jpg");
+	margin: 0 auto 0 auto;
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+header{
+	display: block;
+}
+.header{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0 10px;
+}
+h1, p{
+	display: block;
+}
+#title{
+	font-size: 65px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+#description{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+form{
+	margin: 50px;
+	padding: 35px;
+	display: block;
+	background-color: #ADD8E6;
+}
+label{
+	display: flex;
+	font-size: 25px;
+	font-weight: bold;
+	align-items: center;
+	margin-bottom: 25px;
+	cursor: default;
+	color: white;
+}
+select{
+	display: flex;
+	font-size: 25px;
+	align-items: center;
+	margin-bottom: 25px;
+	cursor: default;
+}
+.design{
+	display: block;
+	width: 99%;
+	height: 32px;
+	background-clip: padding-box;
+	border-radius: 2px;
+}
+p{
+	display: block;
+	font-size: 26px;
+	font-weight: bold;
+}
+label{
+	cursor: default;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.desc, .check{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+.hint{
+	margin-left: 10px;
+	font-size: 20px;
+}
+textarea{
+	display: inline-block;
+	border-width: 3px;
+    border-style: solid;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    display: inline-block;
+    text-align: start;
+}
+.input-text{
+    width: 100%;
+    resize: vertical;
+    min-height: 150px;
+    padding: 10px;
+}
+button{
+	background-color: #0000FF;
+	border: none;
+	padding: 3px;
+}
+.submit-button{
+	display: block;
+	font-size: 30px;
+	width: 20%;
+	cursor: pointer;
+	border-radius: 3px;
+	color: white;
+}
+input, button, select, textarea{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Application Form</title>
+  	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+	<div class="main">
+		<header class="header">
+			<h1 id="title">Personal Information</h1>
+			<p id="description"><i>Application Form: Please fill it up honestly.</i></p>
+		</header>
+	<hr>
+
+	<form id="survey-form">
+		<label id="name-label" for="name">**Full Name:</label>
+		<input class="design" type="text" name="name" id="name" placeholder="Lastname, Firstname, MI" required>
+		<br>
+		<label id="email-label" for="email">**Email:</label>
+		<input class="design" type="email" name="email" id="email" placeholder="Enter your Email" required>
+		<br>
+		<label id="number-label" for="number">**Age:</label>
+		<input class="design" type="number" name="age" id="number" min="20" max="30" placeholder="Enter/Select your Age" required>
+		<br>
+		<hr>
+
+		<p>**School:<span class="hint">[Particularly in Baguio City Area]</span></p>
+		<select class="design" id="dropdown" name="school" required>
+			<option disabled selected value>Select School</option>
+			<option value="UC">University of the Cordilleras</option>
+			<option value="UB">University of Baguio</option>
+			<option value="SLU">Saint Louis University</option>
+			<option value="UP">University of the Philippines</option>
+			<option value="BCU">Baguio Central University</option>
+			<option value="BSU">Benguet State University</option>
+			<option value="EC">Easter College</option>
+			<option value="PCC">Pines City College</option>
+			<option value="other">Other</option>
+		</select>
+		<br>
+		<hr>
+
+		<p>**Status:</p>
+		<label>
+			<input type="radio" name="status" value="single" class="desc">Single</label>
+		<label>
+			<input type="radio" name="status" value="married" class="desc">Married</label>
+		<label>
+			<input type="radio" name="status" value="widowed" class="desc">Widowed</label>
+		<label>
+			<input type="radio" name="status" value="divorced" class="desc">Divorced</label>
+		<label>
+			<input type="radio" name="status" value="Complicated" class="desc">Complicated</label>
+		<hr>
+
+		<p>**What tools are you familiar with?:<span class="hint">[Check as you wish]</span>
+		</p>
+		<label>
+			<input type="checkbox" name="choice" value="sublime" class="check">Sublime Text</label>
+		<label>
+			<input type="checkbox" name="choice" value="jQuery" class="check">jQuery</label>
+		<label>
+			<input type="checkbox" name="choice" value="GitHub" class="check">GitHub</label>
+		<label>
+			<input type="checkbox" name="choice" value="bootstrap" class="check">Twitter Bootstrap</label>
+		<label>
+			<input type="checkbox" name="choice" value="angular" class="check">Angular.js</label>
+		<label>
+			<input type="checkbox" name="choice" value="sass" class="check">Sass</label>
+		<label>
+			<input type="checkbox" name="choice" value="java" class="check">JavaScript</label>
+		<label>
+			<input type="checkbox" name="choice" value="htm" class="check">HTML</label>
+		<label>
+			<input type="checkbox" name="choice" value="cs" class="check">CSS</label>
+		<label>
+			<input type="checkbox" name="choice" value="other" class="check">Other</label>
+		<hr>
+
+		<p>**Please include any comments, suggestions, or recommendations:</p>
+		<textarea id="comments" class="input-text" name="comment" placeholder="Please enter comments/suggestions/recommendations here......."></textarea>
+
+		<button id="submit" type="submit" class="submit-button">Submit</button>
+	</form>
+	</div>
+</body>
